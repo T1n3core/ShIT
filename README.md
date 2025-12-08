@@ -10,5 +10,3 @@ Work in progress.
 - Simple command structure (`shit init`, `shit add`, etc.)  
 - Transparent object headers modeled after Git  
 - Focus on understanding Git internals rather than full functionality
-
-## Directory Structure
