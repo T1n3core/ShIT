@@ -1,13 +1,13 @@
 #ifndef SHA1_H
 #define SHA1_H
 
-#include <stdint.h>
 #include <stddef.h>
+#include <stdint.h>
 
 typedef struct {
-    uint32_t state[5];   // A, B, C, D, E  (SHA-1 internal state)
-    uint32_t count[2];   // Number of processed bits
-    uint8_t buffer[64];  // 512-bit block buffer
+  uint32_t state[5];
+  uint32_t count[2];
+  uint8_t buffer[64];
 } SHA1_CTX;
 
 void SHA1_Init(SHA1_CTX *ctx);
